@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LibreHealth Quick Starter Guide</title>
+	</head>
+	<body>
+		<body bgcolor="lightcyan">
+		<img src="logo.jpg"></img>
+		<h1> <font face="garamound"> LibreHealth Starter Guide</font face></h1>
+		<h3> Welcome to the LibreHealth family!</h3>
+		<font face="verdana" color="deeppink">
+		
+		First name: <input type="text" name="firstname"><br>
+		<br>
+		Last name: <input type="text" name="lastname"><br>
+		<br>
+		
+		Are you:<br>
+		<input type="radio" name="sex" value="male">Male<br>
+		<input type="radio" name="sex" value="male">Female<br>
+		<br>
+		
+		How old are you? <br>
+		<input type="radio">Under 18<br>
+		<input type="radio">18 - 34<br>
+		<input type="radio">35 and above<br>
+		<br>
+		
+		What describes your occupation?<br>
+		<input type="radio">Student<br>
+		<input type="radio">Teacher<br>
+		<input type="radio">Business<br>
+		<input type="radio">Other: <input type="text"><br>
+		<br>
+		
+		How did you come to know about this organization?<br>
+		<input type="radio">Family & Friends<br>
+		<input type="radio">Google Code-In<br>
+		<input type="radio">Other: <input type="text"><br>
+		<br>
+		
+		Are you familar with coding?<br>
+		No idea! <input type="range"> I'm an expert!<br>
+		<br>
+		Answer this question only if it applies to you: What coding languages are you familiar with?<br>
+		<input type="radio" onClick="window.location.href = 'coding_task.html' " value="Python"/> Python<br>
+		<input type="radio" onClick="window.location.href = 'coding_task.html' " value= "JAVA"/> JAVA<br>
+		<input type="radio" onClick="window.location.href = 'coding_task.html' " value="HTML"/> HTML<br>
+		<input type="radio" onClick="window.location.href = 'coding_task.html' " value="Other"/> Other: <input type="text"><br>
+		<br>
+		
+		Do you know how to create wireframes for the mockup of different applications ?<br>
+		<input type="radio" name="wireframe" value="Yes, I'm an expert!" onClick="window.location.href ='wireframes_task.html' " />Yes, I'm an expert! <br>  
+		<input type="radio" name="wireframe" value="No, I'm not familiar with it." >No, I'm not familiar with it.<br>
+		<input type="radio" name="wireframe" value="Sort of." >Sort of.<br>
+		<br>
+
+		Do you like art and want to help us by using your wonderful artistic ability?<br>
+		<input type="radio" onClick="window.location.href ='art_task.html' "value=" I love art! I would definitely help."/> I love art! I would definitely help.<br>
+		<input type="radio" onClick="window.location.href ='art_task.html' "value=" I could try to help."/> I could try to help.<br>
+		<input type="radio" value="I have what so ever no artistic abilities!"> I have what so ever no artistic abilities!<br>
+		<br>
+		
+		<form action="thankyou.html">
+		<input type="submit" value="Submit the Questionnaire"/>
+		</form>		
+		</form>
+	</body>
+</html>
